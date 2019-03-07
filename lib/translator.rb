@@ -8,6 +8,10 @@ def load_library(path)
   new_emoticons = {}
   new_emoticons["get_meaning"] = {}
   new_emoticons["get_emoticon"] = {}
+  
+  emoticons.each do |key, value|
+    
+  end
 end
 
 def get_japanese_emoticon
