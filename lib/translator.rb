@@ -10,7 +10,7 @@ def load_library(path)
   new_emoticons["get_emoticon"] = {}
   
   emoticons.each do |key, value|
-    
+    new_emoticons["get_meaning "]
   end
 end
 
