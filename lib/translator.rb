@@ -6,7 +6,8 @@ def load_library(path)
   # code goes here
   emoticons = YAML.load_file(path)
   new_emoticons = {}
-  new_emoticons["get_meaning"]
+  new_emoticons["get_meaning"] = {}
+  new_emoticons["get_emoticon"] = {}
 end
 
 def get_japanese_emoticon
