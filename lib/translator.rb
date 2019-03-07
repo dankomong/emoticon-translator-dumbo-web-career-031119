@@ -19,11 +19,11 @@ end
 def get_japanese_emoticon(path, emoticon)
   # code goes here
   new_emoticons = load_library(path)
-  emoticon = new_emoticons["get_emoticon"][emoticon]
+  ans = new_emoticons["get_emoticon"][emoticon]
   if !emoticon
     return "Sorry, that emoticon was not found"
   else
-    result
+    ans
   end
 end
 
